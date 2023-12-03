@@ -1,0 +1,32 @@
+body {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b87d2841-ca20-4e28-819f-ac43f7bfe8ea/deksejk-60a7271f-e6f8-4259-b321-32df1aefeb63.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I4N2QyODQxLWNhMjAtNGUyOC04MTlmLWFjNDNmN2JmZThlYVwvZGVrc2Vqay02MGE3MjcxZi1lNmY4LTQyNTktYjMyMS0zMmRmMWFlZmViNjMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fbFcj6IslKVPA5W5bgRmUN5oKfRYiutPHc4EyoQWr7g) no-repeat center;
+    background-size: cover;
+    height: 104vh;
+    cursor: none;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: calc(20px + 2vw);
+    font-weight: 700;
+    color: #fafafa;
+    text-shadow: 2px 2px 2px #000;
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+}
+.spotlight {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(
+        circle,
+        transparent 160px,
+        rgba(0, 0, 0, 0.85) 200px
+    );
+}
