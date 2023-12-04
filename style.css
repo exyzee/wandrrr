@@ -4,6 +4,13 @@ body {
     height: 104vh;
     cursor: none;
 }
+.image_block {
+    width: 175px;
+    height: 175px;
+    line-height: 175px;
+    text-align: center;
+    vertical-align: bottom;
+}
 
 h1 {
     position: absolute;
