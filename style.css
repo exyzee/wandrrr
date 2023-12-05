@@ -1,39 +1,56 @@
-body {
-    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b87d2841-ca20-4e28-819f-ac43f7bfe8ea/deksejk-60a7271f-e6f8-4259-b321-32df1aefeb63.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I4N2QyODQxLWNhMjAtNGUyOC04MTlmLWFjNDNmN2JmZThlYVwvZGVrc2Vqay02MGE3MjcxZi1lNmY4LTQyNTktYjMyMS0zMmRmMWFlZmViNjMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fbFcj6IslKVPA5W5bgRmUN5oKfRYiutPHc4EyoQWr7g) no-repeat center;
-    background-size: cover;
-    height: 104vh;
-    cursor: none;
-}
-.image_block {
-    width: 175px;
-    height: 175px;
-    line-height: 175px;
-    text-align: center;
-    vertical-align: bottom;
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: calc(20px + 2vw);
-    font-weight: 700;
-    color: #fafafa;
-    text-shadow: 2px 2px 2px #000;
-    pointer-events: none;
-    user-select: none;
-    white-space: nowrap;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.spotlight {
-    position: absolute;
+
+.gif {
     height: 100%;
     width: 100%;
-    background-image: radial-gradient(
-        circle,
-        transparent 160px,
-        rgba(0, 0, 0, 0.85) 200px
-    );
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+.btn-group {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    font-size: 1.2em;
+}
+button:nth-child(1) {
+    margin-left: -200px;
+    background: #e94d58;
+}
+button:nth-child(2) {
+    margin-right: -200px;
+    background: white;
+    color: #e94d58;
 }
